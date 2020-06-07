@@ -1,0 +1,46 @@
+h1 {
+  color: mediumslateblue;
+  margin-left: 30px;
+  padding: 10px;
+}
+.link {
+  margin: 40px;
+}
+.link a {
+  margin: 20px;
+  padding: 10px;
+}
+.Header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+body {
+  background-color: aliceblue;
+}
+.game {
+  position: relative;
+}
+.game p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.game:hover p {
+  opacity: 1;
+}
+.game:hover img {
+  opacity: 0.25;
+}
